@@ -1,0 +1,99 @@
+body{
+    background-color: #24353f;
+}
+.container1 {
+    box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px !important;
+    font-family: "Titillium Web", sans-serif;
+    margin: 0px 86.25px;
+    padding: 48px;
+    width: 60% !important;
+}
+.container2{
+    display: flex !important;
+    justify-content: space-between !important;
+}
+.heading { 
+    font-size: 40px;
+    font-weight: 500;
+    color: rgb(23, 162, 184);
+    margin: 0px 0px 15px;
+}
+input {
+    border: 1px solid rgb(206, 212, 218) !important;
+    cursor: text;
+    margin: 16px 0px;
+    padding: 6px 12px;
+    background-color: transparent !important;
+    color: #fff !important;
+}
+input::placeholder {
+    color: rgb(206, 212, 218)  !important ;
+}
+.loginButton , .signUpButton {
+    border: 1px solid rgb(23, 162, 184) !important;
+    background-color: transparent !important;
+    color: rgb(23, 162, 184) !important;
+    margin: 16px 0px;
+    padding: 6px 12px;
+    transition: background-color 0.5s, color 0.5s;
+}
+.loginButton:hover , .signUpButton:hover{
+    background-color: rgb(23, 162, 184) !important;
+    color: #fff !important;
+}
+.endText {
+    margin: 0px 0px 16px;
+    color: #fff;
+}
+.signUpLink{
+    color: #fff;
+    text-decoration: none;
+}
+.signUpLink:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #fff;
+}
+.navbar{
+    background-color: #24353f;
+    box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+}
+.navLink{
+    font-size: 20px;
+    margin: 0px 16px 0px 0px;
+    padding: 5px 0px;
+    color: #fff;
+}
+.navLink:hover {
+    color: #fff;
+}
+.logoutButton{
+    border: 1px solid rgb(255, 193, 7) !important;
+    padding: 8px;
+}
+.logoutButton a {
+    color: rgba(255, 255, 255, 0.51) !important;
+}
+.logoutButton:hover{
+    background-color: rgb(255, 193, 7) !important;
+}
+.logoutButton:hover a {
+    color: #fff !important;
+}
+.welcomeSentence{
+    color: rgb(23, 162, 184);
+    font-size: 40px;
+    padding: 0px 0px 8px;
+}
+.welcomeSection{
+    height: 91%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.welcome{
+    box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
